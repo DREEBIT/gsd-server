@@ -1,0 +1,13 @@
+{
+    "apps": [
+        {
+            "name": "gsd-server",
+            "script": "npm",
+            "args" : "start",
+            "error_file": "$HOME/gsd-server/logs/error.log",
+	    "dateFormat": "YYYY-MM-DD_HH-mm-ss",
+	    "rotateModule": true,
+	    "out_file": "$HOME/gsd-server/logs/out.log"
+        }
+    ]
+}
