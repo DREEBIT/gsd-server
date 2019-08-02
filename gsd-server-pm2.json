@@ -1,13 +1,26 @@
 {
-    "apps": [
-        {
-            "name": "gsd-server",
-            "script": "npm",
-            "args" : "start",
-            "error_file": "$HOME/gsd-server/logs/error.log",
-	    "dateFormat": "YYYY-MM-DD_HH-mm-ss",
-	    "rotateModule": true,
-	    "out_file": "$HOME/gsd-server/logs/out.log"
-        }
-    ]
+  "apps": [
+    {
+      "name": "gsd-server",
+      "script": "./node_modules/@dreebit/gsd-server/dist/index.js",
+      "error_file": "/home/gsd/gsd-server/logs/error.log",
+      "dateFormat": "YYYY-MM-DD_HH-mm-ss",
+      "rotateModule": true,
+      "out_file": "/home/gsd/gsd-server/logs/out.log",
+      "env": {
+        "PARAMETER_DATABASE": "./database/parameter_database.json",
+        "DATA_DATABASE":"./data_database.json",
+        "CONFIG_DATABASE":"/home/gsd/gsd-server/database/config_database.json",
+        "PARAMETER_SERVER_URL":"http://gsd.config.dreebitnet.local/export/parameter",
+        "MORGAN_CONFIG":"prod",
+        "MAX_PARAMETER_VALUES":300,
+        "MODBUS_INTERVAL":500,
+        "JWT_SECRET":"555GSD",
+        "MODBUS_DEBUG":false,
+        "PORT":8080,
+        "TMP_PATH":"/home/gsd/gsd-server/tmp",
+        "UPDATE_PATH":"/home/gsd/gsd-server/versions"
+      }
+    }
+  ]
 }
