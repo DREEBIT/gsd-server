@@ -1,16 +1,16 @@
 {
   "name": "gsd-server",
   "license": "UNLICENSED",
-  "version": "0.5.34",
+  "version": "0.5.38",
   "repository": "https://github.com/DREEBIT/gsd-server",
   "scripts": {
     "start": "node ./node_modules/@dreebit/gsd-server/dist/index.js",
-    "deploy": "npm run archive:macos && npm run github:release",
+    "deploy": "npm run archive && npm run github:release",
     "github:release": "gh-release -n v$(node -p \"require('./package.json').dependencies['@dreebit/gsd-server']\") -c master -a ./archives/gsd_server_$(node -p \"require('./package.json').dependencies['@dreebit/gsd-server']\").tar",
-    "archive:macos": "tar cvfz archives/gsd_server_$(node -p \"require('./package.json').dependencies['@dreebit/gsd-server']\").tar.gz --exclude .git --exclude \".idea\" --exclude \"archives\" --exclude \".gitignore\" .",
+    "archive": "tar cvfz archives/gsd_server_$(node -p \"require('./package.json').dependencies['@dreebit/gsd-server']\").tar.gz --exclude .git --exclude \".idea\" --exclude \"archives\" --exclude \".gitignore\" .",
     "slack": "CURRENT_VERSION=$(node -p \"require('./package.json').version\") && curl -X POST -H 'Content-type: application/json' --data '{\"text\":\"Neue GSD Server Version '\"$CURRENT_VERSION\"' :tada:\"}' https://hooks.slack.com/services/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"
   },
   "dependencies": {
-    "@dreebit/gsd-server": "0.5.34"
+    "@dreebit/gsd-server": "0.5.38"
   }
 }

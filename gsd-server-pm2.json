@@ -3,10 +3,11 @@
     {
       "name": "gsd-server",
       "script": "./node_modules/@dreebit/gsd-server/dist/index.js",
-      "error_file": "/home/gsd/gsd-server/logs/error.log",
+      "error_file": "./../error.log",
+      "out_file": "./../out.log",
       "dateFormat": "YYYY-MM-DD_HH-mm-ss",
       "rotateModule": true,
-      "out_file": "/home/gsd/gsd-server/logs/out.log",
+      "restart_delay": 1000,
       "env": {
         "PARAMETER_DATABASE": "./database/parameter_database.json",
         "DATA_DATABASE":"./data_database.json",
