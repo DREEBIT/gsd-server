@@ -4,6 +4,29 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.80] - 2020-01-03
+
+### Added
+- Change system time within system settings (requires host os update)
+
+### Changed
+- Device forms improved
+- Recipe: Update forms improved
+
+### Issues
+- GSD-387	Automatische Aktualisierung der Werte nach Übernahme neuer Werte
+- GSD-457	Integration der Systemzeit in RTC-Modul	
+- GSD-503	Druckwert (exp. Werte generell) darstellen mit E anstatt e	
+- GSD-508	GSD Device Ventile: Darstellung im Devicetree an Bedingung knüpfen
+- GSD-517	GSD Measurement Control: Statusmeldung ändern
+- GSD-518	GSD Meassurement Control: Steuerbuttons und Druckanzeige einfügen	
+- GSD-519	GSD Mesurement Control: Rezeptnamen und Rezepttyp anzeigen	
+- GSD-520	GSD Measurement Control Dropdown umbenennen
+- GSD-521	GSD Rezept erstellen / konfigurieren Dialog anpassen	
+- GSD-522	GSD Measurment Control: Log und Lin Umschaltung bei beiden Rezepttypen	
+- GSD-628	Netzwerkeinstellungen abspeichern	
+- GSD-629	Parameter Werte in Exp. Schreibweise	
+
 ## [0.5.76] - 2019-12-10
 
 ### Changed
