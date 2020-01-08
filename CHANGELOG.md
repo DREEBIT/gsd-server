@@ -4,6 +4,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.81] - 2020-01-08
+
+Verbesserung
+------------
+
+*   \[[GSD-654](https://dreebit.atlassian.net/browse/GSD-654)\] - Inhalt "System Status" mit Abstand darstellen
+*   \[[GSD-660](https://dreebit.atlassian.net/browse/GSD-660)\] - Parameter Manager: Weiterleiten nur möglich bei Adress-Typ "Prisma Web API"
+
+Bug
+---
+
+*   \[[GSD-639](https://dreebit.atlassian.net/browse/GSD-639)\] - Lade/Loading in UI vertauscht bei deutscher oder englische Spracheinstellung
+*   \[[GSD-643](https://dreebit.atlassian.net/browse/GSD-643)\] - Vakuum-Widget: Ausgabe von "null" in Y-Achse
+*   \[[GSD-644](https://dreebit.atlassian.net/browse/GSD-644)\] - Versatz im Widget Vakuum
+*   \[[GSD-656](https://dreebit.atlassian.net/browse/GSD-656)\] - Parameter Manager: Verbundene Parameter bei zusammengesetzten Parametern werden nicht angezeigt oder sind einstellbar
+
 ## [0.5.80] - 2020-01-03
 
 ### Added
