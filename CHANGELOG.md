@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.82] - 2020-01-09
+
+Sub-Task
+--------
+
+*   \[[GSD-723](https://dreebit.atlassian.net/browse/GSD-723)\] - Umsetzung Web
+
+Verbesserung
+------------
+
+*   \[[GSD-523](https://dreebit.atlassian.net/browse/GSD-523)\] - GSD Measurement Control: zweite Y-Achse
+*   \[[GSD-661](https://dreebit.atlassian.net/browse/GSD-661)\] - Eingabefelder in den Views Service und Settings können weniger breit sein
+
 ## [0.5.81] - 2020-01-08
 
 Verbesserung
