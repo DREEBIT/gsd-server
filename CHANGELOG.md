@@ -4,6 +4,33 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.88] - 2020-01-14
+
+Task
+----
+
+*   \[[GSD-773](https://dreebit.atlassian.net/browse/GSD-773)\] - Dropdown-Menü um Logineintrag erweitern
+
+Bug
+---
+
+*   \[[GSD-752](https://dreebit.atlassian.net/browse/GSD-752)\] - Updatefunktion des Screens durch das Server-Archive geht nicht
+
+## [0.5.83] - 2020-01-13
+
+Verbesserung
+------------
+
+*   \[[GSD-728](https://dreebit.atlassian.net/browse/GSD-728)\] - Anpassung Widget-Titel für Heizer
+*   \[[GSD-730](https://dreebit.atlassian.net/browse/GSD-730)\] - Webseitentitel vom Frontend anpassen
+*   \[[GSD-731](https://dreebit.atlassian.net/browse/GSD-731)\] - Menüpunkt Alerts ändern in Alarm
+
+Bug
+---
+
+*   \[[GSD-727](https://dreebit.atlassian.net/browse/GSD-727)\] - Web: Anzeige Wert "0" auf log. Scala ist nicht erlaubt
+*   \[[GSD-733](https://dreebit.atlassian.net/browse/GSD-733)\] - Parameter Manager: Mehrfachauswahl bei "Wert in Geräteliste"
+
 ## [0.5.82] - 2020-01-09
 
 Sub-Task
