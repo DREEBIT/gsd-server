@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.88] - 2020-01-15
+
+Verbesserung
+------------
+
+*   \[[GSD-762](https://dreebit.atlassian.net/browse/GSD-762)\] - VSM GraphQL API Integration
+
+Bug
+---
+
+*   \[[GSD-782](https://dreebit.atlassian.net/browse/GSD-782)\] - Änderung IP-Adresse funktioniert nicht
+
 ## [0.5.88] - 2020-01-14
 
 Task
