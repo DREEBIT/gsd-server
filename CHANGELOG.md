@@ -4,6 +4,33 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.94] - 2020-01-22
+
+Task
+----
+
+*   \[[GSD-854](https://dreebit.atlassian.net/browse/GSD-854)\] - Automatisches aktualisieren von Button
+
+## [0.5.93] - 2020-01-23
+
+Bug
+---
+
+*   \[[GSD-800](https://dreebit.atlassian.net/browse/GSD-800)\] - Messungen Scan Buttons EM + FIL ohne Funktion
+*   \[[GSD-821](https://dreebit.atlassian.net/browse/GSD-821)\] - Im Menü Messung starten Anzeige oben rechts EM und Fil nicht klickbar
+*   \[[GSD-822](https://dreebit.atlassian.net/browse/GSD-822)\] - Anzeige Ordniate und Abszisse bei laufender Messung
+*   \[[GSD-828](https://dreebit.atlassian.net/browse/GSD-828)\] - Bei Rezepterstellung Selected Masses -> Bins existieren EM und Leadin im Tabellenkopf sind aber nicht auswählbar
+*   \[[GSD-829](https://dreebit.atlassian.net/browse/GSD-829)\] - Fehlen des Messwertes bei zweiter Y-Achse bei MID Messung mit Specials im Rezept
+*   \[[GSD-839](https://dreebit.atlassian.net/browse/GSD-839)\] - Bei Änderung Name Rezept wird dieser nach Speichern nicht automatisch in der Rezeptliste links aktualisiert
+*   \[[GSD-840](https://dreebit.atlassian.net/browse/GSD-840)\] - Bei der Änderung des Mode bei einem bereits erstellten Rezept fehlt die aktualisierung des Fensters
+
+## [0.5.92] - 2020-01-15
+
+Task
+----
+
+*   \[[GSD-793](https://dreebit.atlassian.net/browse/GSD-793)\] - Netzwerkeinstellung: Option DHCP herausnehmen
+
 ## [0.5.90] - 2020-01-15
 
 Verbesserung
